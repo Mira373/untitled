@@ -11,8 +11,8 @@ public class DataProviderTest {
         }
 
         @Test(dataProvider = "dpMethod")
-        public void myTest (int a, int b, int result) {
-            int sum = a + b;
+        public void myTest (int a, int c, int result) {
+            int sum = a + c;
             Assert.assertEquals(result, sum) ;
 
     }
